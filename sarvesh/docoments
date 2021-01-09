@@ -1,0 +1,11 @@
+AXI Infrastructure Cores
+
+The following IP cores, described in this document, can be included within each instance of the AXI Interconnect core, depending on the configuration of AXI 
+Interconnect core and its connectivity in the IP integrator block design:
+    • AXI Crossbar- connects one or more similar AXI memory-mapped masters to one or more similar memory-mapped slaves.
+    • AXI Data Width Converter- connects one AXI memory-mapped master to one AXI memory-mapped slave having a wider or narrower datapath.
+    • AXI Clock Converter- connects one AXI memory-mapped master to one AXI memory-mapped slave operating in a different clock domain.
+    • AXI Protocol Converter- connects one AXI4, AXI3 or AXI4-Lite master to one AXI slave of a different AXI memory-mapped protocol.
+    • AXI Data FIFO- connects one AXI memory-mapped master to one AXI memory-mapped slave through a set of FIFO buffers.
+    • AXI Register Slice- connects one AXI memory-mapped master to one AXI memory-mapped slave through a set of pipeline registers, typically to break a critical timing path.
+    • AXI MMU- provides address range decoding and remapping services for AXI Interconnect.
